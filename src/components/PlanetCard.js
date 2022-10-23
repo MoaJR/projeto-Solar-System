@@ -1,11 +1,18 @@
 import React from 'react';
 import propTypes from 'prop-types';
 
-function PlanetCard({ planetName, planetImage }) {
+import '../style/PlanetCard.scss';
+import Button3D from '../Button3D';
+
+function PlanetCard({ planetName, planetImage, planet3D }) {
   return (
-    <div data-testid="planet-card">
+    <div data-testid="planet-card" className="PlanetCard">
+      <img
+        src={ planetImage }
+        alt={ `Planeta ${planetName}` }
+      />
       <p data-testid="planet-name">{planetName}</p>
-      <img src={ planetImage } alt={ `Planeta ${planetName}` } />
+      <Button3D planetName={ planetName } planet3D={ planet3D } />
     </div>
   );
 }

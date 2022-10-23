@@ -1,0 +1,19 @@
+.Header {
+  text-align: center;
+  padding: 5%;
+  position: relative;
+  font-size: 1.5rem;
+  &::after {
+    content: '';
+    display: block;
+    width: 10rem;
+    height: 10rem;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 100%;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%) skewX(-45deg);
+  }
+}

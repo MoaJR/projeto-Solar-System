@@ -1,12 +1,13 @@
 import React from 'react';
 import missions from '../data/missions';
 import MissionCard from './MissionCard';
-
 import Title from './Title';
+
+import '../style/Missions.scss';
 
 function Missions() {
   return (
-    <div data-testid="missions">
+    <div data-testid="missions" className="Missions">
       <Title headline="Missões" />
       <ul>
         {

@@ -1,0 +1,32 @@
+.SolarSystem {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  ul {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    padding: 0 1rem;
+    li {
+      text-decoration: none;
+      list-style: none;
+      width: 250px;
+      margin-bottom: 3rem;
+      font-size: 2rem;
+    }
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(158, 158, 158);
+  border-radius: 10px;
+}
