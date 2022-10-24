@@ -7,8 +7,4 @@ function Title({ headline }) {
   );
 }
 
-Title.propTypes = {
-  headline: propTypes.string.isRequired,
-};
-
 export default Title;

@@ -2,7 +2,7 @@ import React from 'react';
 import propTypes from 'prop-types';
 
 import '../style/PlanetCard.scss';
-import Button3D from '../Button3D';
+import Button3D from './Button3D';
 
 function PlanetCard({ planetName, planetImage, planet3D }) {
   return (
@@ -16,10 +16,5 @@ function PlanetCard({ planetName, planetImage, planet3D }) {
     </div>
   );
 }
-
-PlanetCard.propTypes = {
-  planetName: propTypes.string.isRequired,
-  planetImage: propTypes.string.isRequired,
-};
 
 export default PlanetCard;

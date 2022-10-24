@@ -1,5 +1,4 @@
 import React from 'react';
-import proptypes from 'prop-types';
 
 import '../style/MissionCard.scss';
 
@@ -13,12 +12,5 @@ function MissionCard({ name, year, country, destination }) {
     </div>
   );
 }
-
-MissionCard.propTypes = {
-  name: proptypes.string.isRequired,
-  year: proptypes.number.isRequired,
-  country: proptypes.string.isRequired,
-  destination: proptypes.string.isRequired,
-};
 
 export default MissionCard;

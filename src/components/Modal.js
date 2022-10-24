@@ -31,9 +31,4 @@ function Modal({ closeModal, title, planetComponent}) {
   );
 }
 
-Modal.propTypes = {
-  closeModal: propTypes.func.isRequired,
-  title: propTypes.string.isRequired,
-};
-
 export default Modal;
