@@ -4,13 +4,11 @@
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
+  overflow-x: scroll;
   ul {
     margin-top: 1rem;
     margin-bottom: 3rem;
     display: flex;
-    justify-content: center;
-    width: 100%;
-    overflow-x: scroll;
     padding: 0 1rem;
     li {
       text-decoration: none;
@@ -25,7 +23,7 @@
 ::-webkit-scrollbar {
   width: 10px;
   height: 10px;
-  background-color: black;
+  background-color: #0a0a0a;
 }
 ::-webkit-scrollbar-thumb {
   background: rgb(158, 158, 158);
