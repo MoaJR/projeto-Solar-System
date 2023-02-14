@@ -1,10 +1,5 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+Link para aplicação: https://projeto-solar-system-rho.vercel.app/
+
+Projeto feito em React, utilizando a biblioteca Three.JS para renderizar os planetas em 3D
+
+![image](https://user-images.githubusercontent.com/99083242/218742471-b51e4fe8-7b68-40eb-ac60-9840ff840b32.png)
